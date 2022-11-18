@@ -1,129 +1,135 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
     <title>FLIX</title>
 </head>
+
 <body>
     <div class="nome bg-light text-center">
-        <h1>EVEFLIX</h1>
+        <h1>PixFlix</h1>
     </div>
+    <nav class="navbar navbar-expand-lg navbar-danger bg-dark">
+        <a class="navbar-brand" href="#">EveFlix</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <nav class="navbar navbar-expand-lg  navbar-light bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar scroll</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Link
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Link</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
     </nav>
 
+    <br><br>
+
     <div class="container bg-info">
-        <h2>FILMES</h2>
+        <h2>Filmes</h2>
     </div>
+
+    <br><br>
 
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <img src="imagem1.jpg" class="img-fluid" alt="...">
+                <img src="turbo-movie-poster-1.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-3">
+                <img src="unnamed.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-3">
+                <img src="Lightyear_Teaser_Poster.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-3">
+                <img src="toystory.jpg" class="img-fluid" alt="...">
             </div>
         </div>
-        <div class="col-md-3">
-            <img src="imagem2.jpg" class="img-fluid" alt="...">
-        </div>
-        <div class="col-md-3">
-            <img src="imagem3.jpg" class="img-fluid" alt="...">
-        </div>
-        <div class="col-md-3">
-            <img src="imagem4.jpg" class="img-fluid" alt="...">
-        </div>
     </div>
+
+
+    <br><br>
+
+    <div class="container bg-info">
+        <h2>Séries</h2>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="245908.jpg-r_1280_720-f_jpg-q_x-xxyxx.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-3">
+                <img src="2640175.jpg-r_1280_720-f_jpg-q_x-xxyxx.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-3">
+                <img src="307942.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-3">
+                <img src="winx.jpg" class="img-fluid" alt="...">
+            </div>
+        </div>
     </div>
 
     <br><br>
 
     <div class="container bg-info">
-        <h2>SÉRIES</h2>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <img src="imagem1.jpg" class="img-fluid" alt="...">
-            </div>
-            <div class="col-md-3">
-                <img src="imagem2.jpg" class="img-fluid" alt="...">
-            </div>
-            <div class="col-md-3">
-                <img src="imagem3.jpg" class="img-fluid" alt="...">
-            </div>
-            <div class="col-md-3">
-                <img src="imagem4.jpg" class="img-fluid" alt="...">
-            </div>
-        </div>
+        <h2>Infantil</h2>
     </div>
 
     <br><br>
 
-    <div class="container bg-info">
-        <h2>DOCUMENTÁRIOS</h2>
-    </div>
-
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <img src="imagem1.jpg" class="img-fluid" alt="...">
+                <img src="https://static.wikia.nocookie.net/maxsteelbr/images/d/d5/MaxSteelPerigodeExtin%C3%A7%C3%A3o.jpg/revision/latest?cb=20141212001244&path-prefix=pt-br"
+                    class="img-fluid" alt="...">
             </div>
             <div class="col-md-3">
-                <img src="imagem2.jpg" class="img-fluid" alt="...">
+                <img src="bob.jpg" class="img-fluid" alt="...">
             </div>
             <div class="col-md-3">
-                <img src="imagem3.jpg" class="img-fluid" alt="...">
+                <img src="l7SLxIuRdyrpIVWSEDBdtxCOSCI.jpg" class="img-fluid" alt="...">
             </div>
             <div class="col-md-3">
-                <img src="imagem4.jpg" class="img-fluid" alt="...">
+                <img src="ben10.jpg" class="img-fluid" alt="...">
+
             </div>
         </div>
     </div>
-
-
-
 
 
 </body>
